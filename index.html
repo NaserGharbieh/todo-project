@@ -5,29 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
+    <link rel="stylesheet" href="./style/todo-style.css">
+
 </head>
 <body> 
   <header>
+    
+    <img src="resorce/Yes_Check_Circle.svg.png" alt="DO IT LOGO " width="4%" height="4%"> 
     <h1>   Do it </h1>
-    <img src="resorce/Yes_Check_Circle.svg.png" alt="DO IT LOGO " width="4%" height="4%"> <br> 
-    <a href="About.html"> About me &nbsp;&nbsp;&nbsp;         </a> 
-    <a href="index.html"> login </a> 
+    <a href="About.html" > About me          </a> 
+    <a href="index.html" class="hlinks"> home </a> 
+
   </header>  
-    <main> 
+    <main > 
+        <div class="tdotable">
         <h3> Hi Naser </h3> 
         <p> you have 3 tascks pending <p>
 <form action="" method="post">
     <table> 
-        <tr> <td> <input type="checkbox" name="c1" id=""></td> &nbsp;&nbsp; 
-        <td><b>&nbsp;&nbsp;Attend the lecture </b></td></tr>
-        <tr> <td> <input type="checkbox" name="c2" id=""></td> &nbsp;&nbsp; 
-            <td><b>&nbsp;&nbsp;Attend the lab </b></td></tr>
-            <tr> <td> <input type="checkbox" name="c3" id=""></td>  
-                <td><b>&nbsp;&nbsp;Deliver task on time  </b></td></tr>
+        <tr><th>Task</th> &nbsp;&nbsp;<th> status</th></tr>
+        <tr><td><b>&nbsp;&nbsp;Attend the lecture </b></td> 
+            <td> <input type="checkbox" name="c1" id=""></td> &nbsp;&nbsp;</tr> 
+        
+        <tr> <td><b>&nbsp;&nbsp;Attend the lab  </b></td>
+            <td> <input type="checkbox" name="c2" id=""></td> &nbsp;&nbsp;  </tr>
+            <tr> <td><b>&nbsp;&nbsp;Deliver task on time  </b></td>
+                <td> <input type="checkbox" name="c3" id=""></td>  
+                </tr>
     </table>
 </form>
 <br><br><br>
+</div>
+</main>
 <footer> &copy; Naser Gharbieh 2023 </footer>
-    </main>
+   
 </body>
 </html>
