@@ -1,0 +1,12 @@
+header img{ display: inline; width: 30; height: 15}
+header h1{width: fit-content; display: inline; margin-top: 0%;  }
+header a{ margin-left: 10%;}
+.hlinks{
+    margin-right: 2%;
+}
+
+.describtion{position: absolute; top:8%; left:15%; }
+.contact { margin-left: 30%;}
+.tdotable {margin-left: 12%;}
+#sendb{margin-left: 40%;}
+footer{margin-top: 6%; text-align: center;}
